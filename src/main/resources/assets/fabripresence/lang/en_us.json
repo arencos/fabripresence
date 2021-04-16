@@ -1,6 +1,7 @@
 {
 	"text.autoconfig.fabripresence.title": "Fabripresence Settings",
 	"text.autoconfig.fabripresence.option.on": "Enabled (Requires Game Restart)",
+	"text.autoconfig.fabripresence.option.showButtonInOptions": "Show Button In Options Menu",
 	"text.autoconfig.fabripresence.option.flmm": "First Line (Main Menu)",
 	"text.autoconfig.fabripresence.option.slmm": "Second Line (Main Menu)",
 	"text.autoconfig.fabripresence.option.flsw": "First Line (Select World Screen)",
@@ -11,9 +12,11 @@
 	"text.autoconfig.fabripresence.option.slps": "Second Line (Singleplayer)",
 	"text.autoconfig.fabripresence.option.flm": "First Line (Multiplayer Menu)",
 	"text.autoconfig.fabripresence.option.slm": "Second Line (Multiplayer Menu)",
+	"text.autoconfig.fabripresence.option.flpm": "First Line (Playing Multiplayer)",
+	"text.autoconfig.fabripresence.option.slpm": "Second Line Line (Playing Multiplayer)",
 	"text.autoconfig.fabripresence.option.showServerAddress": "Show Server Address (Multiplayer)",
 	"text.autoconfig.fabripresence.option.showDimension": "Show Dimension (Requires Rejoin)",
 	"text.autoconfig.fabripresence.option.presenceHasImage": "Show Image (DRPC)",
-	"text.autoconfig.fabripresence.option.appid": "App ID (DRPC)",
+	"text.autoconfig.fabripresence.option.appid": "App ID (DRPC, Enter Default for the default app.)",
 	"text.autoconfig.fabripresence.option.largeImageKey": "Large Image Key (DRPC)"
 }

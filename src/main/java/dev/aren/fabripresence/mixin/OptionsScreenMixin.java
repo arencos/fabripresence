@@ -25,9 +25,12 @@ public class OptionsScreenMixin extends Screen {
 	private void addCustomButton(CallbackInfo ci) {
 		if(AutoConfig.getConfigHolder(FabripresenceConfig.class).get().on)
 			Fabripresence.getDiscordRp().update(AutoConfig.getConfigHolder(FabripresenceConfig.class).get().flom, AutoConfig.getConfigHolder(FabripresenceConfig.class).get().slom);
-		this.addButton(new ButtonWidget(this.width - 150, this.height - (this.height), 150, 20, Text.of("Fabripresence"), (buttonWidget) -> {
-			MinecraftClient.getInstance().openScreen(AutoConfig.getConfigScreen(FabripresenceConfig.class, this).get());
-		}));
+
+		if(AutoConfig.getConfigHolder(FabripresenceConfig.class).get().showButtonInOptions) {
+			this.addButton(new ButtonWidget(this.width - 150, this.height - (this.height), 150, 20, Text.of("Fabripresence"), (buttonWidget) -> {
+				MinecraftClient.getInstance().openScreen(AutoConfig.getConfigScreen(FabripresenceConfig.class, this).get());
+			}));
+		}
 	}
 
 }

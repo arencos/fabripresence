@@ -7,6 +7,7 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 @Config(name = "fabripresence")
 public class FabripresenceConfig implements ConfigData {
     public boolean on = true;
+    public boolean showButtonInOptions = true;
     public boolean showServerAddress = false;
     public boolean showDimension = true;
     public boolean presenceHasImage = true;
