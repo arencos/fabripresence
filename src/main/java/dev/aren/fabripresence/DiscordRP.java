@@ -8,8 +8,8 @@ public class DiscordRP {
 	
 	public static DiscordRPC lib = DiscordRPC.INSTANCE;
 	public static DiscordRichPresence presence = new DiscordRichPresence();
-	public static String applicationId = AutoConfig.getConfigHolder(FabripresenceConfig.class).get().appid.equals("Default") ? "818194591723028510" : AutoConfig.getConfigHolder(FabripresenceConfig.class).get().appid;
-	// 818194591723028510
+	public static String applicationId = AutoConfig.getConfigHolder(FabripresenceConfig.class).get().appid.equals("Default") ? ":)" : AutoConfig.getConfigHolder(FabripresenceConfig.class).get().appid;
+	// the app id is actually in the actual code, im just hiding it here so epic hackers dont steal it.
 
 
 	public static void start() {
